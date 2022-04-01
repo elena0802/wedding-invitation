@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*============================== 
-	- Template Name: FOREVER - Responsive HTML Wedding Template
+	- Template Name: FOREVER - Responosive HTML Wedding Template
 	- Author: DoubleEight
 	- Version: 1.02
 	- Website: www.dethemes.com
@@ -183,8 +183,6 @@
 	- @media screen and (max-width: 320px)
 
 */
-
-
 
 /*===============================================*/
 /* 00. PRELOADER		 						 */
@@ -2468,7 +2466,7 @@ option{
 	font-size:13px
 }
 
-.message .bg-danger, .message .bg-success{
+.message .bg-ger, .message .bg-success{
 	padding:8px 14px;
 	color:#ffffff;
 }
@@ -2536,6 +2534,11 @@ form .has-error .btn-primary{
 .couple-excerpt{
 	margin-top:40px;
 	margin-bottom:40px;
+}
+
+.qna-title{
+	font-family: 'MaruBuriBold';
+	line-height:35px;
 }
 
 /* ----------------------------------------------*/
@@ -3005,6 +3008,11 @@ h2#dont-miss-it-title{
 	background-color:#FFF
 }
 
+#gift-info{
+	font-family: 'Noto Sans KR', sans-serif; 
+	font-weight: 400;
+}
+
 /* Gift for Groom */
 .accordion1 {
 	background-color: #EDEEF1;
@@ -3016,7 +3024,7 @@ h2#dont-miss-it-title{
 	width: 100%;
 	text-align: left;
 	outline: none;
-	font-size: 18px;
+	font-size: 20px;
 	transition: 0.4s;
 	margin-top: 15px;
   }
@@ -3027,7 +3035,7 @@ h2#dont-miss-it-title{
 	content: '\f107';
 	color: rgb(57, 90, 140);
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 22px;
 	float: right;
 	margin-left: 5px;
   }
@@ -3055,7 +3063,7 @@ h2#dont-miss-it-title{
 	border: none;
 	text-align: left;
 	outline: none;
-	font-size: 18px;
+	font-size: 20px;
 	transition: 0.4s;
 	border: 0.5px #F4DFD5;
 	border-style: solid solid dashed solid;
@@ -3067,7 +3075,7 @@ h2#dont-miss-it-title{
 	content: '\f107';
 	color: #b85675;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 22px;
 	float: right;
 	margin-left: 5px;
   }
@@ -4293,7 +4301,7 @@ h2#dont-miss-it-title{
 }
 
 .accordion1:after{
-	font-size: 18px;
+	font-size: 21px;
 }
 
 .accordion2{
@@ -4303,12 +4311,12 @@ h2#dont-miss-it-title{
 }
 
 .accordion2:after{
-	font-size: 18px;
+	font-size: 21px;
 }
 
 .accountinfo{
-	padding: 30px 25px 20px 25px;
-	font-size: 14px;
+	padding: 25px 25px 25px 25px;
+	font-size: 15px;
 }
 
 .kakaopaybtn{
