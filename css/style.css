@@ -312,7 +312,7 @@ img.with-border{
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 0.15em;
-	color: #bdbebd
+	color: #bdbebd;
 }
 
 .title-kr{
@@ -510,7 +510,7 @@ img.with-border{
   	font-weight: normal;
   	font-size:10px;
 	content: '\e9bd';
-	color:#f0394d;
+	color:#fa7991;
 	text-align:center;
 }
 
@@ -527,7 +527,7 @@ img.with-border{
 }
 
 #nav-menu > li a:hover{
-	color:#f0394d;
+	color:#fa7991;
 }
 
 /* 03.1.1 Transparent 							 */
@@ -537,7 +537,7 @@ img.with-border{
 }
 
 .transparent #nav-menu > li a:hover{
-	color:#f0394d;
+	color:#fa7991;
 }
 
 .transparent.stick-it #nav-menu > li a{
@@ -569,7 +569,7 @@ img.with-border{
 	list-style-type:none;
 	padding:0;
 	text-align:left;
-	border-top:solid 3px #f0394d
+	border-top:solid 3px #fa7991;
 }
 
 #nav-menu li:hover > ul{
@@ -589,7 +589,7 @@ img.with-border{
 }   
 
 #nav-menu ul li a:hover{
-	background-color:#f0394d;
+	background-color:#fa7991;
 	border:none;
 	color:#FFF;
 }
@@ -715,7 +715,7 @@ img.with-border{
 }
 
 #menu-icon a:hover i{
-	color:#f0394d
+	color: #fa7991;
 }
 
 #menu-icon.white a i{
@@ -724,7 +724,7 @@ img.with-border{
 }
 
 #menu-icon.white a:hover i{
-	color:#f0394d
+	color:#fa7991;
 }
 
 
@@ -752,7 +752,7 @@ img.with-border{
 }
 
 #sticky-menuicon a:hover{
-	background-color:#f0394d;
+	background-color: #fa7991;
 }
 
 #sticky-menuicon a:hover i{
@@ -908,7 +908,7 @@ img.with-border{
 	width:100%; 
 	height:100%; 
 	border-radius:0%; 
-	background-color:#f0394d; 
+	background-color: #fa7991; 
 	color:#FFF; 
 	text-align:center; 
 	font-family: 'EB Garamond', serif;
@@ -2507,15 +2507,19 @@ form .has-error .btn-primary{
 /*===============================================*/
 
 /* ----------------------------------------------*/
-/* 12.1 Couple Section							 */
+/* 12.1 Couple Section & Greeting & Parents							 */
 /* ----------------------------------------------*/
+
+#greeting{
+	padding:140px 0 50px 0;
+}
 
 #couple{
 	padding:140px 0 100px 0;
 }
 
 #parents{
-	padding:140px 0 100px 0;
+	padding:140px 0;
 }
 
 .couple-name{
@@ -2727,7 +2731,7 @@ footer .image-divider.fixed-height{
 .his-her-name h2{
 	font-size:30px; 
 	margin-top:50px; 
-	margin-bottom:30px;
+	margin-bottom:40px;
 }
 
 .his-her-name .last-name{
@@ -2773,7 +2777,7 @@ footer .image-divider.fixed-height{
 /* 14.3 Our Story Section						 */
 /* ----------------------------------------------*/
 #our-story{
-	padding: 140px 0
+	padding: 140px 0;
 }
 
 .story-row.row {
@@ -3361,7 +3365,7 @@ button.mfp-close, button.mfp-arrow {
 }
 
 #nav-menu li a:hover{
-	background-color:#f0394d;
+	background-color:#fa7991;
 	color:#FFF;
 }
 
@@ -3814,8 +3818,8 @@ p{
 /* ----------------------------------------------*/						
 .his-her-name h2{
 	font-size:27px; 
-	margin-top:40px; 
-	margin-bottom:20px;
+	margin-top:50px; 
+	margin-bottom:40px;
 }
 
 .parents-name h4{
@@ -4064,6 +4068,14 @@ p{
 	padding:60px 0 40px 0;
 }
 
+#greeting{
+	padding:60px 0 30px 0;
+}
+
+#parents{
+	padding:60px 0 40px 0;
+}
+
 .couple-name{
 	font-size:36px; 
 	padding-top:80px !important;
@@ -4076,8 +4088,8 @@ p{
 
 .his-her-name h2{
 	font-size:22px; 
-	margin-top:30px; 
-	margin-bottom:20px;
+	margin-top:40px; 
+	margin-bottom:30px;
 }
 
 .parents-name h4{
@@ -4443,8 +4455,8 @@ h2#dont-miss-it-title{
 
 .his-her-name h2{
 	font-size:20px; 
-	margin-top:30px; 
-	margin-bottom:20px;
+	margin-top:40px; 
+	margin-bottom:30px;
 }
 
 .parents-name h4{
