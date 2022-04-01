@@ -2978,6 +2978,12 @@ h2#dont-miss-it-title{
 	margin-bottom:10px;
 }
 
+.events-title{
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 0.1em;
+	font-weight: 500;
+}
+
 /* ----------------------------------------------*/
 /* 14.8 Groomsmen Section						 */
 /* ----------------------------------------------*/
