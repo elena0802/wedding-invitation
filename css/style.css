@@ -261,7 +261,7 @@ h4.inline, h5.inline, h6.inline{
 
 p{
 /*	font-family: 'Arvo', serif;	*/
-    font-family: 'MaruBuri', sans-serif;
+    font-family: 'MaruBuri', serif;
 	font-size:16px;
 	line-height:28px;
 	margin-bottom:25px;
@@ -314,11 +314,11 @@ img.with-border{
 }
 
 .title-kr{
-	font-family: 'MaruBuriSemiBold';
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 .emphasize{
-	font-family: 'MaruBuriBold';
+	font-family: 'MaruBuriBold', serif;
 }
 
 .description{
@@ -445,7 +445,7 @@ img.with-border{
 	list-style-type:none; 
 	margin:0; 
 	padding:45px 0 0 0;
-	font-family: 'MaruBuri', sans-serif;
+	font-family: 'MaruBuri', serif;
 	font-size:13px;
 	z-index:1000;
 }
@@ -818,7 +818,7 @@ img.with-border{
 	margin:35px;
 	margin-bottom:100px;
 	padding:0;
-	font-family: 'MaruBuri', sans-serif;
+	font-family: 'MaruBuri', serif;
 	font-size:14px;
 	z-index:1000;
 }
@@ -1603,7 +1603,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /* ----------------------------------------------*/
 .banner-text{
 	display:inline-block;
-	font-family: 'MaruBuri', sans-serif; 
+	font-family: 'MaruBuri', serif; 
 	margin:auto;
 	margin-top:25px;
 	margin-bottom:20px; 	
@@ -1649,7 +1649,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 .banner-text.withlove{
 	position:relative;
 	display:inline-block;
-	font-family: 'MaruBuri', sans-serif;  
+	font-family: 'MaruBuri', serif;  
 	margin:auto;
 	margin-top:30px;
 	margin-bottom:30px;
@@ -2537,7 +2537,7 @@ form .has-error .btn-primary{
 }
 
 .qna-title{
-	font-family: 'MaruBuriBold';
+	font-family: 'MaruBuriBold', serif;
 	line-height:35px;
 }
 
@@ -2645,7 +2645,7 @@ footer .image-divider.fixed-height{
 }
 
 #footer-couple-name{
-	font-family: 'MaruBuri', sans-serif; 
+	font-family: 'MaruBuri', serif; 
 	font-size:20px; 
 	color:#FFF; 
 	letter-spacing:3px; 
@@ -2738,7 +2738,7 @@ footer .image-divider.fixed-height{
 }
 
 .his-her-name .last-name{
-	font-family: 'MaruBuri', sans-serif; 
+	font-family: 'MaruBuri', serif; 
 	font-size:15px; 
 	display:block; 
 	margin-top:15px;
@@ -2764,16 +2764,17 @@ footer .image-divider.fixed-height{
 }
 
 .parents-name h4{
-	font-size:25px; 
+	font-size:22px; 
 	margin-top:50px; 
-	margin-bottom:25px;
-	font-family: 'MaruBuriLight';
+	margin-bottom:30px;
+	font-family: 'MaruBuriLight', serif;
 }
 
 .parents-name h3{
 	font-size:30px; 
 	margin-top:20px; 
 	margin-bottom:60px;
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 /* ----------------------------------------------*/
@@ -3837,16 +3838,16 @@ p{
 }
 
 .parents-name h4{
-	font-size:20px; 
+	font-size:19px; 
 	margin-top:40px; 
-	margin-bottom:20px;
-	font-family: 'MaruBuriLight';
+	margin-bottom:25px;
+	font-family: 'MaruBuriLight', serif;
 }
 
 .parents-name h3{
 	font-size:27px; 
 	margin-top:20px; 
-	margin-bottom:70px;
+	margin-bottom:80px;
 	
 }
 
@@ -3860,7 +3861,7 @@ p{
 }
 
 #our-story .title-excerpt h3{
-	font-family: 'MaruBuriSemiBold', sans-serif;
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 /* ----------------------------------------------*/
@@ -4015,7 +4016,7 @@ p{
 }
 
 #more-events .title-excerpt h3{
-	font-family: 'MaruBuriSemiBold';
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 /* 07.2.11 Banner Text				 			 */
@@ -4107,16 +4108,16 @@ p{
 }
 
 .parents-name h4{
-	font-size:16px; 
+	font-size:17px; 
 	margin-top:30px; 
 	margin-bottom:20px;
-	font-family: 'MaruBuriLight';
+	font-family: 'MaruBuriLight', serif;
 }
 
 .parents-name h3{
 	font-size:21px; 
 	margin-top:20px; 
-	margin-bottom:50px;
+	margin-bottom:60px;
 	
 }
 
@@ -4200,7 +4201,7 @@ p{
 
 #where-when .location-info h3{
 	font-size: 16px;
-	font-family: 'MaruBuri', sans-serif;
+	font-family: 'MaruBuri', serif;
 }
 
 #where-when .location-info h4{
@@ -4474,17 +4475,17 @@ h2#dont-miss-it-title{
 }
 
 .parents-name h4{
-	font-size:14px; 
+	font-size:15px; 
 	margin-top:30px; 
 	margin-bottom:15px;
-	font-family: 'MaruBuri', sans-serif;
+	font-family: 'MaruBuri', serif;
 }
 
 .parents-name h3{
 	font-size:18px; 
 	margin-top:15px; 
 	margin-bottom:50px;
-	font-family: 'MaruBuriSemiBold', sans-serif;
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 /* 14.3 Our Story Section						 */
@@ -4502,7 +4503,7 @@ h2#dont-miss-it-title{
 /* ----------------------------------------------*/
 #where-when .location-info h3{
 	font-size: 15px;
-	font-family: 'MaruBuri', sans-serif;
+	font-family: 'MaruBuri', serif;
 }
 
 #where-when .location-info h4{
@@ -4545,7 +4546,7 @@ footer .image-divider.fixed-height{
 }
 
 #footer-couple-name{
-	font-family: 'MaruBuri', sans-serif; 
+	font-family: 'MaruBuri', serif; 
 	font-size:14px; 
 }
 
