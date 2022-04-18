@@ -327,6 +327,12 @@ img.with-border{
 	text-align: justify;
 	text-justify: inter-word;
 }
+
+#more-events p{
+	text-align: justify; 
+	text-justify: inter-word;
+}
+
 .numberfont{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -1651,8 +1657,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	display:inline-block;
 	font-family: 'MaruBuri', serif;  
 	margin:auto;
-	margin-top:30px;
-	margin-bottom:30px;
+	margin-top:20px;
+	margin-bottom:20px;
 	text-align:center
 }
 
@@ -1969,8 +1975,7 @@ a:hover .de-icon.effect3{
 }
 
 .photo-item.frame-border {
-	background-color:#FFF; 
-	border:18px solid #FFF;
+	background-color:transparent; 
 }
 
 /* ----------------------------------------------*/
@@ -2903,7 +2908,7 @@ footer .image-divider.fixed-height{
 /* 14.5 Gallery Section							 */
 /* ----------------------------------------------*/
 #gallery-section{
-	padding: 140px 0
+	padding: 140px 0;
 }
 
 #gallery-section .photo-item{
@@ -2911,8 +2916,8 @@ footer .image-divider.fixed-height{
 }
 
 #gallery-section .photo-item img {
-    height: 500px;
-	width: auto;
+    height: auto;
+	width: 100%;
 }
 
 /* ----------------------------------------------*/
@@ -2975,8 +2980,7 @@ h2#dont-miss-it-title{
 }
 
 #events-carousel .item{
-	padding:20px;
-	margin-bottom:10px;
+	padding:7px;
 }
 
 .events-title{
@@ -3249,8 +3253,8 @@ button.mfp-close, button.mfp-arrow {
 /* 09.1 Image 									 */
 /* ----------------------------------------------*/
 #gallery-section .photo-item img {
-    height: 400px;
-	width: auto;
+    height: auto;
+	width: 100%;
 }
 
 /* ----------------------------------------------*/
@@ -3563,8 +3567,8 @@ button.mfp-close, button.mfp-arrow {
 /* 09.1 Image 									 */
 /* ----------------------------------------------*/
 #gallery-section .photo-item img {
-    height: 300px;
-	width: auto;
+    height: auto;
+	width: 100%;
 }
 
 /*===============================================*/
@@ -3736,11 +3740,6 @@ button.mfp-close, button.mfp-arrow {
 #gallery-section .photo-item{
 	margin-bottom:20px;
 }
-    
-.photo-item.frame-border {
-	border:15px solid #FFF;
-}
-
 
 #gallery-section .container .row .col-xs-6, .col-xs-12 {
     padding-right: 10px; !important;
@@ -3837,6 +3836,16 @@ p{
 	margin-bottom:40px;
 }
 
+#couple {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#parents {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
 .parents-name h4{
 	font-size:19px; 
 	margin-top:40px; 
@@ -3854,9 +3863,13 @@ p{
 /* ----------------------------------------------*/
 /* Our Story Section							 */
 /* ----------------------------------------------*/	
+
+#our-story{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
 #our-story p{
-	margin-left: 10px;
-	margin-right: 10px;
 	text-justify: inter-word;
 }
 
@@ -3974,7 +3987,7 @@ p{
 }
 
 .banner-text.withlove{
-	margin-top: 25px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -4047,11 +4060,6 @@ p{
 #gallery-section .photo-item{
 	margin-bottom:10px;
 }
-    
-#gallery-section .photo-item.frame-border {
-	border:15px solid #FFF;
-}
-
 
 #gallery-section .container .row .col-xs-6, .col-xs-12 {
     padding-right: 5px; !important;
@@ -4081,6 +4089,8 @@ p{
 /* ----------------------------------------------*/	
 #couple{
 	padding:60px 0 40px 0;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 #greeting{
@@ -4089,6 +4099,8 @@ p{
 
 #parents{
 	padding:60px 0 40px 0;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .couple-name{
@@ -4181,7 +4193,9 @@ p{
 /* 14.3 Our Story Section						 */
 /* ----------------------------------------------*/
 #our-story{
-	padding: 80px 0
+	padding: 80px 0;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 #end-of-story{
@@ -4196,7 +4210,9 @@ p{
 /* 14.4 Where When Section						 */
 /* ----------------------------------------------*/
 #where-when{
-	padding: 80px 0
+	padding: 80px 0;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 #where-when .location-info h3{
@@ -4219,7 +4235,9 @@ p{
 /* 14.5 Gallery Section							 */
 /* ----------------------------------------------*/
 #gallery-section{
-	padding: 80px 0
+	padding: 80px 0;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 /* ----------------------------------------------*/
@@ -4255,7 +4273,9 @@ h2#dont-miss-it-title{
 /* 14.7 More Events Section						 */
 /* ----------------------------------------------*/
 #more-events{
-	padding: 80px 0
+	padding: 80px 0;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 
@@ -4289,6 +4309,8 @@ h2#dont-miss-it-title{
 /* ----------------------------------------------*/
 #gift-section{
 	padding: 80px 0;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 /* ----------------------------------------------*/
