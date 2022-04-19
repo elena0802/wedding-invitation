@@ -1530,10 +1530,10 @@ hr.line-divider{
 }*/
 
 .pink-heart{
-	color:#f0394d; 
+	/*color:#f0394d;*/ 
 	font-size:18px; 
 	position:relative; 
-	z-index:3
+	z-index:3;
 }
 
 .white-heart{
@@ -3846,13 +3846,17 @@ p{
 }
 
 .section-title{
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 
 /* ----------------------------------------------*/
 /* Couple & Parents Section							 */
 /* ----------------------------------------------*/						
+#greeting{
+	padding: 100px 0 60px 0;
+}
+
 .his-her-name h2{
 	font-size:27px; 
 	margin-top:50px; 
@@ -3860,15 +3864,12 @@ p{
 }
 
 #couple {
-	margin-left: 30px;
-	margin-right: 30px;
+	padding: 80px 30px 60px 30px;
 }
 
 #parents {
-	margin-left: 30px;
-	margin-right: 30px;
+	padding: 80px 30px 60px 30px;
 }
-
 .parents-name h4{
 	font-size:19px; 
 	margin-top:40px; 
@@ -3888,8 +3889,11 @@ p{
 /* ----------------------------------------------*/	
 
 #our-story{
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 80px 30px 60px 30px;
+}
+
+#more-events{
+	padding: 80px 0 60px 0;
 }
 
 #our-story p{
@@ -3905,8 +3909,19 @@ p{
 /* ----------------------------------------------*/
 h2#dont-miss-it-title{
 	font-size:20px; 
-	margin-bottom:20px; 
+	margin-bottom:40px; 
 }
+
+#dday-countdown{
+	font-size: 50px;
+	letter-spacing: 0.27em;
+}
+
+#date-countdown{
+	font-size: 30px;
+	letter-spacing: 0.22em;
+}
+
 
 #divider-title-line{
 	font-size: 65px;
@@ -3927,6 +3942,14 @@ h2#dont-miss-it-title{
 /* ----------------------------------------------*/
 /* Location Section						 */
 /* ----------------------------------------------*/
+#where-when{
+	padding: 100px 30px 60px 30px;
+}
+
+#gift-section{
+	padding: 100px 30px 60px 30px;
+}
+
 #where-when .location h3{
 	font-size: 18px;
 }
@@ -3939,7 +3962,7 @@ h2#dont-miss-it-title{
 	font-size: 15px;
 }
 
-}
+
 
 
 
@@ -4000,6 +4023,20 @@ p{
 }
 
 .section-title h3{
+	font-size: 14px;
+}
+
+/* ICON & DIVIDER*/
+/* ----------------------------------------------*/	
+.pink-heart{
+	font-size: 14px;
+}
+
+.white-heart{
+	font-size: 14px;
+}
+
+.grey-heart{
 	font-size: 14px;
 }
 
@@ -4116,16 +4153,14 @@ p{
 }
 
 #couple{
-	padding:60px 0 40px 0;
-	margin-left: 5px;
-	margin-right: 5px;
+	padding:60px 5px 40px 5px;
 }
 
 #parents{
-	padding:60px 0 40px 0;
-	margin-left: 5px;
-	margin-right: 5px;
+	padding:60px 5px 40px 5px;
 }
+
+
 
 .couple-name{
 	font-size:36px; 
@@ -4182,6 +4217,8 @@ p{
 	font-size:16px;
 }
 
+
+
 /* ----------------------------------------------*/
 /* 12.3 The Wedding Section			 			 */
 /* ----------------------------------------------*/	
@@ -4217,9 +4254,7 @@ p{
 /* 14.3 Our Story Section						 */
 /* ----------------------------------------------*/
 #our-story{
-	padding: 80px 0;
-	margin-left: 5px;
-	margin-right: 5px;
+	padding: 60px 5px 40px 5px;
 }
 
 #end-of-story{
@@ -4234,9 +4269,7 @@ p{
 /* 14.4 Where When Section						 */
 /* ----------------------------------------------*/
 #where-when{
-	padding: 80px 0;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding: 60px 5px 40px 5px;
 }
 
 #where-when .location-info h3{
@@ -4259,9 +4292,7 @@ p{
 /* 14.5 Gallery Section							 */
 /* ----------------------------------------------*/
 #gallery-section{
-	padding: 80px 0;
-	margin-left: 5px;
-	margin-right: 5px;
+	padding: 60px 5px 40px 5px;
 }
 
 /* ----------------------------------------------*/
@@ -4284,8 +4315,19 @@ p{
 }
 
 h2#dont-miss-it-title{
-	font-size:40px; 
-	margin-bottom:20px; 
+	font-size:18px; 
+	margin-bottom:35px; 
+	letter-spacing: 0.35em;
+}
+
+#dday-countdown{
+	font-size: 40px;
+	letter-spacing: 0.25em;
+}
+
+#date-countdown{
+	font-size: 23px;
+	letter-spacing: 0.22em;
 }
 
 #divider-title-line{
@@ -4297,7 +4339,7 @@ h2#dont-miss-it-title{
 /* 14.7 More Events Section						 */
 /* ----------------------------------------------*/
 #more-events{
-	padding: 80px 0;
+	padding: 60px 0px 40px 0px;
 }
 
 
@@ -4330,9 +4372,7 @@ h2#dont-miss-it-title{
 /* 14.10 Gift Section							 */
 /* ----------------------------------------------*/
 #gift-section{
-	padding: 80px 0 120px 0;
-	margin-left: 5px;
-	margin-right: 5px;
+	padding: 60px 5px 60px 5px;
 }
 
 /* ----------------------------------------------*/
@@ -4465,8 +4505,18 @@ p{
 }
 
 h2#dont-miss-it-title{
-	font-size:30px; 
-	margin-bottom:20px; 
+	font-size:14px; 
+	margin-bottom:40px; 
+}
+
+#dday-countdown{
+	font-size: 30px;
+	letter-spacing: 0.25em;
+}
+
+#date-countdown{
+	font-size: 17px;
+	letter-spacing: 0.22em;
 }
 
 #divider-title-line{
