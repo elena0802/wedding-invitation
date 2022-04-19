@@ -338,10 +338,11 @@ $(document).ready(function() {
 	var theday = new Date();
 	theday = new Date(2022, 6, 9);
 		 
-	$('#countdown').countdown({until: theday, format: 'WDHMS'});
+	$('#countdown').countdown({until: theday, format: 'dHMS', compact: true});
 	$('#countdown').countdown($.countdown.regionalOptions['custom-label']); 
-		 
-	$('#date-countdown').countdown({until: theday, format: 'WDHMS'});
+	
+	$('#dday-countdown').countdown({until: theday, format: 'dHMS', compact: true, layout: 'D-{dn}{dl}'});
+	$('#date-countdown').countdown({until: theday, format: 'dHMS', compact: true, layout: '{hnn}{sep}{mnn}{sep}{snn}'});
 		 
 	// 08. MOBILE MENU
 	//==================================================================================

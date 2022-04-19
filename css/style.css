@@ -184,6 +184,13 @@
 
 */
 
+@font-face {
+    font-family: 'Arita-buri-SemiBold', serif;
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*===============================================*/
 /* 00. PRELOADER		 						 */
 /*===============================================*/
@@ -2556,7 +2563,7 @@ form .has-error .btn-primary{
 #counting-down{
 	text-align:center; 
 	color:#FFF; 
-	font-family: 'Dancing Script', sans-serif;
+	/*font-family: 'Dancing Script', sans-serif;*/
 	-ms-transform: rotate(-10deg); 
 	-webkit-transform: rotate(-10deg); 
 	transform: rotate(-10deg);
@@ -2575,18 +2582,27 @@ form .has-error .btn-primary{
 	line-height:65px;
 }
 
-.simple-countdown{
-	width:250px; 
+.simple-countdown{ 
 	margin:0 auto; 
-	margin-top:25px
+	margin-top:5px;
+	text-align: center;
+	font-family: 'Arita-buri-SemiBold', serif; 
+}
+
+#dday-countdown{
+	font-size: 60px;
+	letter-spacing: 0.3em;
+}
+
+#date-countdown{
+	font-size: 35px;
+	letter-spacing: 0.25em;
 }
 
 .simple-countdown.is-countdown {
 	border: none;
 	background-color:transparent;
 	color:#FFF;
-	font-family: 'Dancing Script', sans-serif; 
-	font-size:13px;
 }
 
 .simple-countdown .countdown-amount {
@@ -2927,10 +2943,12 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 /* 14.6 Don't Miss It / Countdown Section / Photo Divider with Text		 */
 /* ----------------------------------------------*/
+
 h2#dont-miss-it-title{
-	font-size:55px; 
-	margin-bottom:30px; 
-	font-family: 'Dancing Script', cursive;
+	font-size: 25px;
+	letter-spacing: 0.5em;
+	margin-bottom:40px; 
+	font-family: 'MaruBuriExtraLight', serif;
 }
 
 #divider-title{
@@ -3886,7 +3904,7 @@ p{
 /* 14.6 Don't Miss It / Countdown Section / Photo Divider with Text		 */
 /* ----------------------------------------------*/
 h2#dont-miss-it-title{
-	font-size:50px; 
+	font-size:20px; 
 	margin-bottom:20px; 
 }
 

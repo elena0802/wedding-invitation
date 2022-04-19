@@ -139,7 +139,8 @@
 			'': { // Default regional settings - English/US
 		labels: ['년', '달', '주', '일', '시간', '분', '초'],
 		labels1: ['년', '달', '주', '일', '시간', '분', '초'],
-				compactLabels: ['y', 'm', 'w', 'd'],
+				/*compactLabels: ['y', 'm', 'w', 'd'],*/
+				compactLabels: ['y', 'm', 'w', ''],
 				whichLabels: null,
 				digits: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
 				timeSeparator: ':',
