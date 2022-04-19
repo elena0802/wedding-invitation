@@ -593,7 +593,6 @@ img.with-border{
 }   
 
 #nav-menu ul li a:hover{
-	background-color:#fa7991;
 	border:none;
 	color:#FFF;
 }
@@ -1975,7 +1974,8 @@ a:hover .de-icon.effect3{
 }
 
 .photo-item.frame-border {
-	background-color:transparent; 
+	background-color:transparent;
+	border-radius: 10px; 
 }
 
 /* ----------------------------------------------*/
@@ -3016,7 +3016,7 @@ h2#dont-miss-it-title{
 /* ----------------------------------------------*/
 #gift-section{
 	padding: 140px 0; 
-	background-color:#FFF
+	background-color:#FFF;
 }
 
 #gift-info{
