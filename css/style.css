@@ -532,7 +532,7 @@ img.with-border{
 
 #nav-menu > li a{
 	display:inline-block;
-	padding:18px;
+	padding:17px;
 	color:#666;
 	text-decoration:none;
 }
@@ -3357,7 +3357,8 @@ button.mfp-close, button.mfp-arrow {
 	text-align:left !important;
 	width:100% !important;
 	background-color:#FFF;
-	height:330px;
+	/*height:330px;*/
+	height: auto;
 	overflow:auto;
 }
 
