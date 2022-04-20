@@ -1807,17 +1807,17 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /* 08.1	 Size 							   	  	  */
 /*------------------------------------------------*/
 .de-icon.large-size{
-	width: 85px;
-	height: 85px;
-	line-height: 95px;
+	width: 130px;
+	height: 130px;
+	line-height: 140px;
 	font-size:40px;	
 }
 
 .de-icon.medium-size{
-	width: 54px;
-	height: 54px;
-	line-height: 60px;
-	font-size:25px;	
+	width: 90px;
+	height: 90px;
+	line-height: 96px;
+	font-size:30px;	
 }
 
 .de-icon.small-size{
@@ -1899,6 +1899,8 @@ a:hover .de-icon.default.light.reverse{
 	background-color:transparent;
 	color:#6a6a6a;
 	border:1px solid #6a6a6a;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .de-icon.outline.reverse{
@@ -1913,10 +1915,12 @@ a:hover .de-icon.default.light.reverse{
 	border:1px solid #FFF;
 }
 
-a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.square{
-	background-color:#f0394d;
-	color:#FFF;
-	border:none;
+
+
+a:hover .de-icon.circle.outline.light, a:hover .de-icon.rounded, a:hover .de-icon.square{
+	background-color:transparent;
+	color:#f0394d;
+	border:1px solid #f0394d;
 }
 
 a:hover .de-icon.circle.reverse, a:hover .de-icon.rounded.reverse, a:hover .de-icon.square.reverse{
@@ -2834,15 +2838,16 @@ footer .image-divider.fixed-height{
 }
 
 .story-date .date-only{
-	font-family: 'Open Sans', sans-serif; 
-	font-size:30px; 
-	color:#FFF; 
-	line-height:30px; 
-	margin-top:16px;
+	font-family: 'Oswald', sans-serif; 
+	font-size:25px; 
+	color:#e1dddd;
+	line-height:40px; 
+	margin-top:20px;
+	margin-left: 2px;
 }
 
 .story-date .month-year{
-	font-family: 'Open Sans', sans-serif; 
+	font-family: 'Oswald', sans-serif; 
 	font-size:16px; 
 	color:#FFF;
 }
@@ -3630,13 +3635,17 @@ button.mfp-close, button.mfp-arrow {
 }
 
 .story-date{
+	display: none;
+}
+
+/*.story-date{
 	float:none;
 	position:absolute;	
 	top:-70px;
 	left:0;
 	right:0;
 	margin:auto;
-}
+}*/
 
 .story-date .month-year{
 	font-family: 'Open Sans', sans-serif; 
