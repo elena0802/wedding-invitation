@@ -1729,6 +1729,18 @@
               });
             }
         </script>
+        <!-- kakao Javascript SDK -->
+                <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+                <script>
+                    Kakao.init('fe7c32f271402d80774a3578627d0042');
+                    $("#footer-couple-name").click(function(e)) {
+                        e.preventDefault();
+                        Kakao.Link.sendCustom({
+                        templateId: 75339
+                        });
+                    }
+                    
+                </script>   
             
 	</body>
 </html>
