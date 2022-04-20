@@ -1583,13 +1583,23 @@
             </div>   
                
         </div>
+        <a href="javascrip:void(0);" id="kakao-btn">카카오 링크보내기</a>
+        <!-- kakao Javascript SDK -->
+        <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+        <script>
+            Kakao.init('fe7c32f271402d80774a3578627d0042');
+            $("#kakao-btn").click(function(e)) {
+                e.preventDefault();
+                Kakao.Link.sendCustom({
+                templateId: 75339
+                });
+            }
             
+        </script> 
+
         </section>
 
 
-
-
-        
         <!-- FOOTER SECTION -->
             <footer>
             	<div class="image-divider fixed-height" style="background-image:url('images/divider/divider-6.jpg'); background-position: 70% 60%; height:500px;" data-stellar-background-ratio="0.4" >
@@ -1729,18 +1739,7 @@
               });
             }
         </script>
-        <!-- kakao Javascript SDK -->
-                <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
-                <script>
-                    Kakao.init('fe7c32f271402d80774a3578627d0042');
-                    $("#footer-couple-name").click(function(e)) {
-                        e.preventDefault();
-                        Kakao.Link.sendCustom({
-                        templateId: 75339
-                        });
-                    }
-                    
-                </script>   
+          
             
 	</body>
 </html>
