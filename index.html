@@ -1585,45 +1585,6 @@
                
         </div>
 
-        <!-- Kakao Link Share -->
-        
-        <a id="create-kakao-link-btn" href="javascript:;">
-            <img
-              src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
-              alt="카카오링크 보내기 버튼"
-            />
-          </a>
-          
-          <script>
-              Kakao.init('fe7c32f271402d80774a3578627d0042');
-          </script>
-          <script type="text/javascript">
-            Kakao.Link.createDefaultButton({
-              container: '#create-kakao-link-btn',
-              objectType: 'location',
-              address: '서울 서초구 신반포로 176',
-              addressTitle: 'JW 메리어트 호텔 서울',
-              content: {
-                title: '한영후 ♥ 천현정 결혼합니다',
-                description: '2022년 7월 9일 토요일 오후 6시 \n 시그니엘 서울 76층 그랜드볼룸',
-                imageUrl:
-                  'https://drive.google.com/uc?id=1vx8DPvnbRzeVVuVOZ5vcCSB8D8P17T45',
-                link: {
-                  mobileWebUrl: 'https://elena0802.github.io/wedding-invitation',
-                  webUrl: 'https://elena0802.github.io/wedding-invitation',
-                },
-              },
-              buttons: [
-                {
-                  title: '모바일청첩장',
-                  link: {
-                    mobileWebUrl: 'https://elena0802.github.io/wedding-invitation',
-                    webUrl: 'https://elena0802.github.io/wedding-invitation',
-                  },
-                },
-              ],
-            })
-          </script>
 
         </section>
 
@@ -1662,6 +1623,48 @@
                      
                      				</div>
                      			</div>
+                                
+                                <div class="row">
+                                    <a id="kakao-link-btn" href="javascript:sendLink();">
+                                        <img
+                                          src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
+                                          alt="카카오 링크 보내기 버튼"
+                                        />
+                                    </a>
+                                      
+                                      <script>
+                                          Kakao.init('fe7c32f271402d80774a3578627d0042');
+                                      </script>
+                                      <script type="text/javascript">
+                                        function sendLink() {
+                                            Kakao.Link.sendDefault({
+                                            container: '#kakao-link-btn',
+                                            objectType: 'location',
+                                            address: '서울 서초구 신반포로 176',
+                                            addressTitle: 'JW 메리어트 호텔 서울',
+                                            content: {
+                                                title: '한영후 ♥ 천현정 결혼합니다',
+                                                description: '2022년 7월 9일 토요일 오후 6시 \n 시그니엘 서울 76층 그랜드볼룸',
+                                                imageUrl:
+                                                'https://drive.google.com/uc?id=1vx8DPvnbRzeVVuVOZ5vcCSB8D8P17T45',
+                                                link: {
+                                                mobileWebUrl: 'https://elena0802.github.io/wedding-invitation',
+                                                webUrl: 'https://elena0802.github.io/wedding-invitation',
+                                                },
+                                            },
+                                            buttons: [
+                                                {
+                                                title: '모바일청첩장',
+                                                link: {
+                                                    mobileWebUrl: 'https://elena0802.github.io/wedding-invitation',
+                                                    webUrl: 'https://elena0802.github.io/wedding-invitation',
+                                                },
+                                                },
+                                            ],
+                                            })
+                                        }
+                                    </script>
+                                </div>
                      		</div>
                      
                      	</div>
