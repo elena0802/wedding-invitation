@@ -2650,6 +2650,43 @@ footer .image-divider.fixed-height{
 	height:550px;
 }
 
+#thank-you-kr{
+	font-family: 'MaruBuriExtraLight', serif;
+	font-size: 23px;
+	color: #fff;
+	letter-spacing: 2px;
+	margin-top: 5px
+}
+
+#footer-couple-name{
+	font-family: 'MaruBuriExtraLight', serif; 
+	font-size:18px; 
+	color:#FFF; 
+	letter-spacing:3px; 
+}
+
+#kakao-link{
+	text-align: center;
+	margin-top: 120px;
+}
+
+#kakao-link-btn{
+	color: #FFF;
+	font-size: 15px;
+	font-family: 'MaruBuriExtraLight', serif;
+	text-decoration: none;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	/*background-color: rgba(0, 0, 0, 0.2);*/
+	border-radius: 70px;
+	padding: 25px 40px;
+}
+
+#kakao-link-btn img{
+	width: 20px;
+	height: auto;
+	margin-right: 5px;
+}
+
 #thank-you{
 	text-align:center; 
 	color:#FFF; 
@@ -2671,15 +2708,6 @@ footer .image-divider.fixed-height{
 	font-size:55px; 
 	line-height:45px;
 }
-
-#footer-couple-name{
-	font-family: 'MaruBuri', serif; 
-	font-size:20px; 
-	color:#FFF; 
-	letter-spacing:3px; 
-	margin-top:10px;
-}
-
 
 /*===============================================*/
 /* 13. OTHER PAGE								 */
@@ -4433,6 +4461,25 @@ h2#dont-miss-it-title{
 /* ----------------------------------------------*/
 /* 12.5 Footer Section				 			 */
 /* ----------------------------------------------*/
+#thank-you-kr{
+	font-size: 18px;
+}
+
+#footer-couple-name{
+	font-size: 14px;
+}
+
+#kakao-link-btn{
+	font-size: 13px;
+	padding: 20px 30px;
+}
+
+#kakao-link-btn img{
+	width: 17px;
+	height: auto;
+	margin-right: 3px;
+}
+
 #thank{
 	font-size:45px; 
 	line-height:35px
@@ -4443,9 +4490,7 @@ h2#dont-miss-it-title{
 	line-height:35px;
 }
 
-#footer-couple-name{
-	font-size: 15px;
-}
+
 
 }
 
@@ -4627,6 +4672,16 @@ footer .image-divider.fixed-height{
 	 height:400px;
 }
 
+#thank-you-kr{
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+#kakao-link-btn{
+	font-size: 12px;
+	font-family: 'MaruBuriLight', serif;
+}
+
 #thank-you{
 	text-align:center; 
 	color:#FFF; 
@@ -4650,8 +4705,7 @@ footer .image-divider.fixed-height{
 }
 
 #footer-couple-name{
-	font-family: 'MaruBuri', serif; 
-	font-size:14px; 
+	font-size:13px; 
 }
 
 /* ----------------------------------------------*/

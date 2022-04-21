@@ -1591,33 +1591,38 @@
 
         <!-- FOOTER SECTION -->
             <footer>
-            	<div class="image-divider fixed-height" style="background-image:url('images/divider/divider-6.jpg'); background-position: 70% 60%; height:500px;" data-stellar-background-ratio="0.4" >
+            	<div class="image-divider fixed-height" style="background-image:url('images/divider/divider-6.jpg'); background-position: 70% 60%;" data-stellar-background-ratio="0.4" >
                 
                 	<div class="divider-overlay" style="opacity: 0.5"></div>
                     
                     <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->
                     <div class="alignment"> 
                     	<div class="v-align center-middle">                  	
-                    
                     		<div class="container">                 	 
                     			<div class="row">
-                        			<div class="col-md-12">
+                        			<div class="col-md-12 ">
                           				
-                                        <div class="animation fadeInUp">
+                                        <!--<div class="animation fadeInUp">
                      						<div id="thank-you">
                      							<div id="thank">Thank</div>
                             					<div id="you">You</div>
                      						</div>
+                                        </div>-->
+            
+                                        <div id="thank-you-kr" class="animation fadeInUp">
+                                            언제나 따뜻하게 곁에 있어주신
                                         </div>
-                        
-                        				<div class="heart-divider animation delay1 fadeInUp">
+                                        <div id="thank-you-kr" class="animation fadeInUp">
+                                            모든 분들께 감사드립니다.
+                                        </div>
+                        				<div class="heart-divider animation fadeInUp">
                         					<span class="white-line"></span>
                         					<i class="de-icon-heart pink-heart"></i>
                         					<i class="de-icon-heart white-heart"></i>
                         					<span class="white-line"></span>
                         				</div>
                                     
-										<div id="footer-couple-name" class="animation delay1 fadeInUp">
+										<div id="footer-couple-name" class="animation fadeInUp">
                                 			영후 & 현정
                                 		</div>
                      
@@ -1625,45 +1630,20 @@
                      			</div>
                                 
                                 <div class="row">
-                                    <a id="kakao-link-btn" href="javascript:sendLink();">
-                                        <img
-                                          src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
-                                          alt="카카오 링크 보내기 버튼"
-                                        />
-                                    </a>
-                                      
-                                      <script>
-                                          Kakao.init('fe7c32f271402d80774a3578627d0042');
-                                      </script>
-                                      <script type="text/javascript">
-                                        function sendLink() {
-                                            Kakao.Link.sendDefault({
-                                            container: '#kakao-link-btn',
-                                            objectType: 'location',
-                                            address: '서울 서초구 신반포로 176',
-                                            addressTitle: 'JW 메리어트 호텔 서울',
-                                            content: {
-                                                title: '한영후 ♥ 천현정 결혼합니다',
-                                                description: '2022년 7월 9일 토요일 오후 6시 \n 시그니엘 서울 76층 그랜드볼룸',
-                                                imageUrl:
-                                                'https://drive.google.com/uc?id=1vx8DPvnbRzeVVuVOZ5vcCSB8D8P17T45',
-                                                link: {
-                                                mobileWebUrl: 'https://elena0802.github.io/wedding-invitation',
-                                                webUrl: 'https://elena0802.github.io/wedding-invitation',
-                                                },
-                                            },
-                                            buttons: [
-                                                {
-                                                title: '모바일청첩장',
-                                                link: {
-                                                    mobileWebUrl: 'https://elena0802.github.io/wedding-invitation',
-                                                    webUrl: 'https://elena0802.github.io/wedding-invitation',
-                                                },
-                                                },
-                                            ],
-                                            })
-                                        }
-                                    </script>
+                                    <div class="col-xs-12 ">
+                                        <div class="animation delay1 fadeInUp">
+                                            <div id="kakao-link">
+                                                <a id="kakao-link-btn" href="javascript:sendLink();">
+                                                    <img
+                                                    src="/wedding-invitation/images/kakaolink_btn_medium.png"
+                                                    alt="카카오 링크 보내기 버튼"
+                                                    />
+                                                    카카오톡으로 초대장 보내기
+                                                 </a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
                                 </div>
                      		</div>
                      
@@ -1769,6 +1749,40 @@
                 } 
               });
             }
+        </script>
+
+        <!-- 카카오톡으로 청첩장 공유하기 -->
+        <script>
+            Kakao.init('fe7c32f271402d80774a3578627d0042');
+        </script>
+        <script type="text/javascript">
+          function sendLink() {
+              Kakao.Link.sendDefault({
+              container: '#kakao-link-btn',
+              objectType: 'location',
+              address: '서울 서초구 신반포로 176',
+              addressTitle: 'JW 메리어트 호텔 서울',
+              content: {
+                  title: '한영후 ♥ 천현정 결혼합니다',
+                  description: '2022년 7월 9일 토요일 오후 6시 \n 시그니엘 서울 76층 그랜드볼룸',
+                  imageUrl:
+                  'https://drive.google.com/uc?id=1vx8DPvnbRzeVVuVOZ5vcCSB8D8P17T45',
+                  link: {
+                  mobileWebUrl: 'https://elena0802.github.io/wedding-invitation',
+                  webUrl: 'https://elena0802.github.io/wedding-invitation',
+                  },
+              },
+              buttons: [
+                  {
+                  title: '모바일청첩장',
+                  link: {
+                      mobileWebUrl: 'https://elena0802.github.io/wedding-invitation',
+                      webUrl: 'https://elena0802.github.io/wedding-invitation',
+                  },
+                  },
+              ],
+              })
+          }
         </script>
           
             
