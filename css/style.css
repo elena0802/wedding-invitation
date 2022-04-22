@@ -2539,6 +2539,17 @@ form .has-error .btn-primary{
 	padding:140px 0;
 }
 
+#parents-1{
+	padding-left: 15px;
+	padding-right: 5px;
+}
+
+#parents-2{
+	padding-left: 5px;
+	padding-right: 15px;
+}
+
+
 .couple-name{
 	font-family: 'Dancing Script', cursive; 
 	font-size:41px; 
@@ -2830,7 +2841,7 @@ footer .image-divider.fixed-height{
 	font-size:30px; 
 	margin-top:20px; 
 	margin-bottom:60px;
-	font-family: 'MaruBuriSemiBold', serif;
+	font-family: 'MaruBuri', serif;
 }
 
 /* ----------------------------------------------*/
@@ -3939,17 +3950,21 @@ p{
 	padding: 80px 30px 60px 30px;
 }
 .parents-name h4{
-	font-size:19px; 
+	font-size:16px; 
 	margin-top:40px; 
-	margin-bottom:25px;
-	font-family: 'MaruBuriLight', serif;
+	margin-bottom:20px;
+	font-family: 'MaruBuriExtraLight', serif;
 }
 
 .parents-name h3{
-	font-size:27px; 
-	margin-top:20px; 
-	margin-bottom:80px;
+	font-size:20px; 
+	margin-top:15px; 
+	margin-bottom:50px;
 	
+}
+
+.parents-name .pink-heart{
+	font-size: 15px;
 }
 
 /* ----------------------------------------------*/
@@ -4247,17 +4262,21 @@ p{
 }
 
 .parents-name h4{
-	font-size:17px; 
+	font-size:13px; 
 	margin-top:30px; 
-	margin-bottom:20px;
-	font-family: 'MaruBuriLight', serif;
+	margin-bottom:15px;
+	font-family: 'MaruBuriExtraLight', serif;
 }
 
 .parents-name h3{
-	font-size:21px; 
-	margin-top:20px; 
-	margin-bottom:60px;
+	font-size:17px; 
+	margin-top:15px; 
+	margin-bottom:30px;
 	
+}
+
+.parents-name .pink-heart{
+	font-size: 12px;
 }
 
 
@@ -4572,7 +4591,7 @@ h2, .h2{
 }
 
 h3, .h3{
-	font-size:13px;
+	font-size:12px;
 }
 
 h4, .h4{
@@ -4588,18 +4607,18 @@ h6, .h6{
 }
 
 p{
-	font-size: 13px;
-	line-height:24px;
-	margin-bottom:25px;
+	font-size: 11px;
+	line-height:22px;
+	margin-bottom:20px;
 }
 
 .section-title h2{
-	font-size: 20px;
+	font-size: 18px;
 
 }
 
 .section-title h3{
-	font-size: 13px;
+	font-size: 11px;
 }
 
 .section-title img{
@@ -4609,6 +4628,10 @@ p{
 
 .section-title{
 	margin-bottom: 20px;
+}
+
+#greeting .section-title{
+	margin-bottom: 50px;
 }
 
 h2#dont-miss-it-title{
@@ -4676,43 +4699,55 @@ h2#dont-miss-it-title{
 }
 
 .parents-name h4{
-	font-size:15px; 
-	margin-top:30px; 
+	font-size:11px; 
+	margin-top:25px; 
 	margin-bottom:15px;
-	font-family: 'MaruBuri', serif;
+	font-family: 'MaruBuriLight', serif;
 }
 
 .parents-name h3{
-	font-size:18px; 
-	margin-top:15px; 
-	margin-bottom:50px;
+	font-size:14px; 
+	margin-top:12px; 
+	margin-bottom:30px;
 	font-family: 'MaruBuriSemiBold', serif;
+}
+
+.parents-name .pink-heart{
+	font-size: 10px;
 }
 
 /* 14.3 Our Story Section						 */
 /* ----------------------------------------------*/
 
 #our-story h3{
-	font-size: 15px;
+	font-size: 14px;
 }
 
 #end-of-story h2{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* 14.4 Where When Section						 */
 /* ----------------------------------------------*/
+#where-when .address-info h3{
+	font-size: 13px;
+}
+
+#where-when .location-info{
+	margin-left: 0px;
+}
+
 #where-when .location-info h3{
-	font-size: 15px;
+	font-size: 13px;
 	font-family: 'MaruBuri', serif;
 }
 
 #where-when .location-info h4{
-	font-size: 13px;
+	font-size: 11px;
 }
 
 #where-when .location-info p{
-	font-size: 13px;
+	font-size: 11px;
 	margin-left: 5px;
 }
 
@@ -4725,12 +4760,12 @@ footer .image-divider.fixed-height{
 }
 
 #thank-you-kr{
-	font-size: 15px;
+	font-size: 13px;
 	letter-spacing: 1px;
 }
 
 #kakao-link-btn{
-	font-size: 12px;
+	font-size: 11px;
 	font-family: 'MaruBuriLight', serif;
 }
 
@@ -4757,7 +4792,7 @@ footer .image-divider.fixed-height{
 }
 
 #footer-couple-name{
-	font-size:13px; 
+	font-size:11px; 
 }
 
 /* ----------------------------------------------*/
@@ -4775,7 +4810,7 @@ footer .image-divider.fixed-height{
 /* Gift Section							 */
 /* ----------------------------------------------*/
 .accordion1{
-	font-size: 15px;
+	font-size: 14px;
 	padding-bottom: 10px;
 	padding-top: 15px;	
 }
@@ -4785,7 +4820,7 @@ footer .image-divider.fixed-height{
 }
 
 .accordion2{
-	font-size: 15px;
+	font-size: 14px;
 	padding-bottom: 10px;
 	padding-top: 15px;	
 }
@@ -4809,5 +4844,8 @@ footer .image-divider.fixed-height{
 	padding: 12px 0px;
 }
 
+#gift-section h3{
+	font-size: 11px;
+}
 
 }
