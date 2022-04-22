@@ -1659,8 +1659,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 
 .banner-text.dark{
 	color:#6a6a6a;
-	border-top:medium double #6a6a6a; 
-	border-bottom:medium double #6a6a6a; 	
+	border-top: medium double #CCCCCC;
+	border-bottom: medium double #CCCCCC;
 }
 
 .banner-text.dark *{
@@ -2997,8 +2997,8 @@ footer .image-divider.fixed-height{
 }
 
 .border-column{
-	border-left:1px solid #8b8b8b; 
-	border-right:1px solid #8b8b8b
+	border-left:1px solid #CCCCCC; 
+	border-right:1px solid #CCCCCC;
 }
 
 #map-canvas{
