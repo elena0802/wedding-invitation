@@ -329,10 +329,11 @@ img.with-border{
 }
 
 .description{
-	margin-left: 10px; 
-	margin-right: 10px;
 	text-align: justify;
 	text-justify: inter-word;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+	line-height: 1.9em;
 }
 
 #more-events p{
@@ -2576,7 +2577,8 @@ form .has-error .btn-primary{
 
 .qna-title{
 	font-family: 'MaruBuriBold', serif;
-	line-height:35px;
+	line-height:2em;
+	font-size: 1.1em;
 }
 
 /* ----------------------------------------------*/
@@ -2945,7 +2947,7 @@ footer .image-divider.fixed-height{
 /* 14.4 Where When Section						 */
 /* ----------------------------------------------*/
 #where-when{
-	padding: 120px 0;
+	padding: 100px 0 80px 0;
 	background-color: #f6f6f6;
 }
 
@@ -4404,8 +4406,8 @@ p{
 
 #where-when .location-info{
 	margin-bottom: 30px;
-	margin-top: 5px;
-	margin-left: 40px;
+	margin-top: 10px;
+	margin-left: 15px;
 }
 
 #where-when .address-info h3{
@@ -4414,10 +4416,9 @@ p{
 }
 
 #where-when .location-info h3{
-	font-size: 14px;
+	font-size: 15px;
 	font-family: 'MaruBuri', serif;
 	margin-left: 5px;
-	margin-bottom: 0px;
 }
 
 #where-when .location-info h4{
@@ -4426,20 +4427,16 @@ p{
 }
 
 #where-when .location-info p{
-	font-size: 12px;
+	font-size: 13px;
 	margin-left: 10px;
 }
-#where-when .location-detail{
-	margin: 15px 0px;
-}
-
 
 
 /* ----------------------------------------------*/
 /* 14.5 Gallery Section							 */
 /* ----------------------------------------------*/
 #gallery-section{
-	padding: 60px 5px 40px 5px;
+	padding: 60px 5px 60px 5px;
 }
 
 /* ----------------------------------------------*/
