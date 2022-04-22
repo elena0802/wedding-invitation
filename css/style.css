@@ -2930,21 +2930,50 @@ footer .image-divider.fixed-height{
 	background-color: #f6f6f6;
 }
 
+#where-when .kakao-map{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#where-when .address-info h3{
+	font-family: 'MaruBuri', serif;
+	font-size: 18px;
+}
+
+#where-when .location-info{
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+
 #where-when .location-info h3{
 	font-size: 20px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 #where-when .location-info h4{
 	font-size: 16px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-weight: 300;
+	font-family: 'Noto Sans KR', sans-serif;
 }
 
 #where-when .location-info p{
-	margin-left: 50px;
+	margin-left: 20px;
 	font-size: 16px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+	margin-bottom: 0px; 
+}
+
+#where-when .location-detail{
+	margin: 20px 0px;
 }
 
 .and{
-	color:#f0394d
+	color:#f0394d;
 }
 
 .border-column{
@@ -4310,18 +4339,39 @@ p{
 	padding: 60px 5px 40px 5px;
 }
 
-#where-when .location-info h3{
-	font-size: 16px;
+#where-when .kakao-map{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#where-when .location-info{
+	margin-bottom: 30px;
+	margin-top: 5px;
+}
+
+#where-when .address-info h3{
 	font-family: 'MaruBuri', serif;
+	font-size: 14px;
+}
+
+#where-when .location-info h3{
+	font-size: 14px;
+	font-family: 'MaruBuri', serif;
+	margin-left: 5px;
+	margin-bottom: 0px;
 }
 
 #where-when .location-info h4{
-	font-size: 14px;
+	font-size: 13px;
+	margin-left: 5px;
 }
 
 #where-when .location-info p{
-	font-size: 14px;
-	margin-left: 5px;
+	font-size: 12px;
+	margin-left: 10px;
+}
+#where-when .location-detail{
+	margin: 15px 0px;
 }
 
 

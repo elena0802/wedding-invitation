@@ -1388,78 +1388,74 @@
                     <!-- ROW-3 -->
                 	<div class="row">
                         <div class="col-md-6 animation fadeIn">
-                            <!-- * 카카오맵 - 지도퍼가기 -->
-                            <!-- 1. 지도 노드 -->
-                            <div id="daumRoughmapContainer1646174408654" class="root_daum_roughmap root_daum_roughmap_landing" style="width: 100%; height: auto"></div>
+                            <div class="kakao-map">
+                                <!-- * 카카오맵 - 지도퍼가기 -->
+                                <!-- 1. 지도 노드 -->
+                                <div id="daumRoughmapContainer1646174408654" class="root_daum_roughmap root_daum_roughmap_landing" style="width: 100%; height: auto"></div>
 
-                            <!--
-                                2. 설치 스크립트
-                                * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
-                            -->
-                            <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+                                <!--
+                                    2. 설치 스크립트
+                                    * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                                -->
+                                <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 
-                            <!-- 3. 실행 스크립트 -->
-                            <script charset="UTF-8">
-                                new daum.roughmap.Lander({
-                                    "timestamp" : "1646174408654",
-                                    "key" : "29bfw"
-                                }).render();
-                            </script>
-                
-                            <div class="location-info">
-                                <a onclick="gtag('event', 'click', { 'event_category': 'map', 'event_label': 'address' });" href="https://map.naver.com/?query=&searchCoord=&tab=1&lng=124b6e3ccd5504da6f52a5640c94eb38&mapMode=0&mpx=0893629c7172a14aa0e09d81bb1de536bc09c7288b65aebc3fd9ecbaea7267db25e4005fcd54efe1c2daa5485c06d4a4&pinId=942614826&lat=3ce5632ce42ca02c6c5a26740152f0a4&dlevel=12&enc=b64&__pinOnly=false&menu=location&__fromRestorer=true&pinType=site" target="_blank">
-                                    <div class="de-icon circle small-size inline">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                    </div>
-                                </a>
-                                <h4 class="inline">서울시 송파구 올림픽로 300</h4>
+                                <!-- 3. 실행 스크립트 -->
+                                <script charset="UTF-8">
+                                    new daum.roughmap.Lander({
+                                        "timestamp" : "1646174408654",
+                                        "key" : "29bfw"
+                                    }).render();
+                                </script>
                             </div>
-                            <div class="location-info">
-                                <a onclick="gtag('event', 'click', { 'event_category': 'map', 'event_label': 'contact' });" href="tel:02-3213-1000">
-                                    <div class="de-icon circle small-size inline">
-                                        <i class="fas fa-phone"></i>
-                                    </div>
-                                </a>
-                                <h4 class="inline">02-3213-1000</h4>
+                            <div class="address-info">
+                                <div class="de-icon circle small-size inline" style="background-color: #BBC8CD">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <h3 class="inline">서울시 송파구 올림픽로 300</h4>
+                            </div>
+                            <div class="address-info">
+
+                                <div class="de-icon circle small-size inline" style="background-color: #BBC8CD">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <h3 class="inline">02-3213-1000</h3>
                             </div>
                             
                         </div>
-                    	<div class="col-md-6 animation fadeIn">
+                        <div class="col-md-6 animation fadeIn">
                             <div class="location-info">
-                                <div class="de-icon circle small-size inline" style="background-color:#5288F5">
-                                    <i class="fas fa-parking"></i>
+                                <h3>주차정보</h3>
+                                <div class="location-detail">
+                                    <p>시그니엘 호텔 GATE3 지하주차장 2시간 무료 이용 가능</p>
                                 </div>
-    
-                                <h3 class="inline">주차정보</h3>
-                                <p>시그니엘 서울 지하 GATE3 주차장 이용</p>
                             </div>
                             <div class="location-info">
-                                <div class="de-icon circle small-size inline" style="background-color:#0d9a48">
-                                    <i class="fas fa-subway"></i>
+                                <h3>지하철</h3>
+                                <div class="location-detail">
+                                    <h4>* 2호선 잠실역</h4>
+                                    <p>- 1, 2번 출구</p>
+                                    <p>- 지하1층 롯데월드몰 입구에서 도보 5분</p>
                                 </div>
-                                <h3 class="inline">지하철로 오시는 길</h3>
-                                <p><span class="emphasize">2호선 잠실역</span><br>
-                                - 1, 2번 출구<br>
-                                - 지하1층 롯데월드몰 입구에서 도보 5분</p>
-                                <p><span class="emphasize">8호선 잠실역</span><br>
-                                    - 10, 11번 출구<br>
-                                    - 지하1층 롯데월드몰 입구에서 도보 5분</p>
+                                <div class="location-detail">
+                                    <h4>* 8호선 잠실역</h4>
+                                    <p>- 10, 11번 출구</p>
+                                    <p>- 지하1층 롯데월드몰 입구에서 도보 5분</p>
+                                </div>
                             </div>
                             <div class="location-info">
-                                <div class="de-icon circle small-size inline" style="background-color:#753778;">
-                                    <i class="fas fa-bus"></i>
+                                <h3>버스</h3>
+                                <div class="location-detail">
+                                    <h4>* 잠실역, 롯데월드몰 하차</h4>
+                                    <p>- 302, 303, 320, 2311, 2412</p>
                                 </div>
-                                <h3 class="inline"> 버스로 오시는 길 </h3>
-                                <p><span class="emphasize">잠실역, 롯데월드몰 하차</span><br>
-                                    - 302, 303, 320, 2311, 2412<br>
-                                </p>
-                                <p><span class="emphasize">잠실역 1번, 11번출구 하차</span><br>
-                                    - 341, 3216, 3313, 3315, 3411, 3413, 3414, 4319
-                                </p>
-                            </div>                      
+                                <div class="location-detail">
+                                    <h4>* 잠실역 1번, 11번출구 하차</h4>
+                                    <p>- 341, 3216, 3313, 3315, 3411, 3413, 3414, 4319</p>
+                                </div>
+                                
+                            </div>
                         </div>
-                        
-                        
+  
                     </div> <!-- END of ROW-3 -->
                    
              	</div>
@@ -1640,37 +1636,37 @@
                                                     카카오톡으로 초대장 보내기
                                                  </a>
                                                  <!-- 카카오톡으로 청첩장 공유하기 -->
-        <script>
-            Kakao.init('fe7c32f271402d80774a3578627d0042');
-        </script>
-        <script type="text/javascript">
-          function sendLink() {
-              Kakao.Link.sendDefault({
-              objectType: 'location',
-              address: '서울 서초구 신반포로 176',
-              addressTitle: 'JW 메리어트 호텔 서울',
-              content: {
-                  title: '한영후 ♥ 천현정 결혼합니다',
-                  description: '2022년 7월 9일 토요일 오후 6시 \n 시그니엘 서울 76층 그랜드볼룸',
-                  imageUrl:
-                  'https://drive.google.com/uc?id=1vx8DPvnbRzeVVuVOZ5vcCSB8D8P17T45',
-                  link: {
-                    mobileWebUrl: 'https://elena0802.github.io/wedding-invitation',
-                    webUrl: 'https://elena0802.github.io/wedding-invitation',
-                  },
-              },
-              buttons: [
-                  {
-                  title: '모바일청첩장',
-                  link: {
-                      mobileWebUrl: 'https://elena0802.github.io/wedding-invitation',
-                      webUrl: 'https://elena0802.github.io/wedding-invitation',
-                  },
-                  },
-              ],
-              })
-          }
-        </script>
+                                                <script>
+                                                    Kakao.init('fe7c32f271402d80774a3578627d0042');
+                                                </script>
+                                                <script type="text/javascript">
+                                                function sendLink() {
+                                                    Kakao.Link.sendDefault({
+                                                    objectType: 'location',
+                                                    address: '서울 서초구 신반포로 176',
+                                                    addressTitle: 'JW 메리어트 호텔 서울',
+                                                    content: {
+                                                        title: '한영후 ♥ 천현정 결혼합니다',
+                                                        description: '2022년 7월 9일 토요일 오후 6시 \n 시그니엘 서울 76층 그랜드볼룸',
+                                                        imageUrl:
+                                                        'https://drive.google.com/uc?id=1vx8DPvnbRzeVVuVOZ5vcCSB8D8P17T45',
+                                                        link: {
+                                                            mobileWebUrl: 'https://elena0802.github.io/wedding-invitation',
+                                                            webUrl: 'https://elena0802.github.io/wedding-invitation',
+                                                        },
+                                                    },
+                                                    buttons: [
+                                                        {
+                                                        title: '모바일청첩장',
+                                                        link: {
+                                                            mobileWebUrl: 'https://elena0802.github.io/wedding-invitation',
+                                                            webUrl: 'https://elena0802.github.io/wedding-invitation',
+                                                        },
+                                                        },
+                                                    ],
+                                                    })
+                                                }
+                                                </script>
                                             </div>
                                             
                                         </div>
