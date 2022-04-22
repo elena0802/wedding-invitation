@@ -2943,6 +2943,7 @@ footer .image-divider.fixed-height{
 #where-when .location-info{
 	margin-bottom: 40px;
 	margin-top: 10px;
+	margin-left: 20px;
 }
 
 #where-when .location-info h3{
@@ -4347,6 +4348,7 @@ p{
 #where-when .location-info{
 	margin-bottom: 30px;
 	margin-top: 5px;
+	margin-left: 40px;
 }
 
 #where-when .address-info h3{
