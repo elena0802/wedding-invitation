@@ -3091,10 +3091,11 @@ h2#dont-miss-it-title{
 }
 
 .events-title{
-	font-family: 'EB Garamond', serif;
-	letter-spacing: 0.1em;
-	font-weight: 500;
+	font-family:'DM Serif Display', serif;
+	letter-spacing: 0.3em;
+	font-size: 1.2em;
 }
+
 
 /* ----------------------------------------------*/
 /* 14.8 Groomsmen Section						 */
@@ -4114,7 +4115,7 @@ h2, .h2{
 }
 
 h3, .h3{
-	font-size:15px;
+	font-size:17px;
 }
 
 h4, .h4{
