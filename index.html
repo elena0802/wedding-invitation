@@ -1527,16 +1527,18 @@
                             <!-- Account Button --> 
                             <div id="btnouter" style="margin-bottom: 15px;">
                                 <div class="btninner">
-                                    <button>
+                                    <button class="kakaopaybtn">
                                         <a href="https://qr.kakaopay.com/281006011160391401003005">
-                                            <img src="/wedding-invitation/images/pattern/kakaopay-btn.png">
+                                            <img src="/wedding-invitation/images/pattern/kakao-small-icon.png" style="width: 18px; margin-right: 3px; margin-bottom: 2px;">
+                                            카카오페이 송금
                                         </a>
                                     </button>
                                 </div>
                                 <div class="btninner">
-                                    <button id="copybtn1" onclick="copyToClipboard()">
-                                        <img src="/wedding-invitation/images/pattern/copy-btn.png">
-                                    </button>     
+                                    <button class="accountbtn" id = "groom1" onclick="copyToClipboard()" >
+                                        <i class="fa fa-copy" style="margin: 0px 5px;"></i>
+                                        계좌번호 복사
+                                    </button>
                                 </div>
                                     
                             </div>
@@ -1580,7 +1582,7 @@
                                     </button>
                                 </div>
                                 <div class="btninner">
-                                    <button class="accountbtn" id = "copybtn2" onclick="copyToClipboard()" >
+                                    <button class="accountbtn" id = "bride1" onclick="copyToClipboard()" >
                                         <i class="fa fa-copy" style="margin: 0px 5px;"></i>
                                         계좌번호 복사
                                     </button>
@@ -1819,13 +1821,13 @@
                 document.body.removeChild(t);
             }
             
-            $('#copybtn1').click(function() {
-                copyToClipboard('신한은행 110355642330 천현정');
+            $('#groom1').click(function() {
+                copyToClipboard('농협 3021260604991 한영후');
                 alert('계좌번호가 복사되었습니다');
             });
 
-            $('#copybtn2').click(function() {
-                copyToClipboard('농협 3021260604991 한영후');
+            $('#bride1').click(function() {
+                copyToClipboard('신한은행 110355642330 천현정');
                 alert('계좌번호가 복사되었습니다');
             });
             
