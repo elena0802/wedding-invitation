@@ -3211,8 +3211,8 @@ h2#dont-miss-it-title{
   }
 
 .kakaopaybtn {
-	background-color: #FFEC00 ; /* kakao yellow */
-	color: #2d2926;
+	background-color: #FEE500 ; /* kakao yellow */
+	color: #191919;
 	border: none;
 	border-radius: 40px;
 	text-align: center;
@@ -3220,13 +3220,21 @@ h2#dont-miss-it-title{
 	font-size: 15px;
 	width: 180px;
 	padding: 15px 0px;
-	margin: 0px 10px 10px 0px;
-	
+}
+
+.kakaopaybtn img{
+	width: 18px; 
+	margin-right: 3px; 
+	margin-bottom: 2px;
+}
+
+.kakaopaybtn a{
+	color: #191919;
 }
 
 .accountbtn {
-	background-color: #fff ; /* kakao yellow */
-	color: #2d2926;
+	background-color: #fff ;
+	color: #191919;
 	border: none;
 	border-radius: 40px;
 	text-align: center;
@@ -3234,14 +3242,14 @@ h2#dont-miss-it-title{
 	font-size: 15px;
 	width: 180px;
 	padding: 15px 0px;
-	margin: 0px 10px 10px 0px;
 	
 }
 
 #btnouter {
-	width: 100%;
-	text-align: center;
-	background-color: transparent;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .accountinfo {
@@ -3253,16 +3261,7 @@ h2#dont-miss-it-title{
 
 .btninner {
 	display: inline-block;
-}
-
-.btninner button{
-	border: none;
-	outline: none;
-}
-
-.btninner button img{
-	width: 150px;
-	height: auto;
+	margin: 0px 20px;
 }
 
 
@@ -4562,18 +4561,34 @@ h2#dont-miss-it-title{
 }
 
 .accountinfo{
-	padding: 25px 25px 25px 25px;
+	padding: 20px 15px;
 	font-size: 15px;
 }
 
 .kakaopaybtn{
-	font-size: 14px;
-	padding: 13px 0px;
+	font-size: 13px;
+	width: 130px;
+	padding: 12px 0px;
+}
+
+.kakaopaybtn img{
+	width: 13px;
+	margin-right: 1px;
+	margin-bottom: 1px;
 }
 
 .accountbtn{
-	font-size: 14px;
-	padding: 13px 0px;
+	font-size: 13px;
+	width: 130px;
+	padding: 12px 0px;
+}
+
+#btnouter {
+	margin-bottom: 20px;	
+}
+
+.btninner{
+	margin: 0px 5px;
 }
 
 /* ----------------------------------------------*/
@@ -4871,18 +4886,33 @@ footer .image-divider.fixed-height{
 }
 
 .accountinfo{
-	padding: 25px 15px 20px 15px;
-	font-size: 14px;
+	padding: 20px 10px;
+	font-size: 12px;
 }
 
 .kakaopaybtn{
-	font-size: 13px;
-	padding: 12px 0px;
+	font-size: 11px;
+	padding: 10px 0px;
+	width: 110px;
+}
+
+.kakaopaybtn img{
+	width: 10px;
+	margin-bottom: 2px;
 }
 
 .accountbtn{
-	font-size: 13px;
-	padding: 12px 0px;
+	font-size: 11px;
+	width: 110px;
+	padding: 10px 0px;
+}
+
+#btnouter{
+	margin-bottom: 15px;
+}
+
+.btninner{
+	margin: 0px 3px;
 }
 
 #gift-section h3{
