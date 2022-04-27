@@ -3214,7 +3214,7 @@ h2#dont-miss-it-title{
 	background-color: #FFEC00 ; /* kakao yellow */
 	color: #2d2926;
 	border: none;
-	border-radius: 12px;
+	border-radius: 40px;
 	text-align: center;
 	display: inline-block;
 	font-size: 15px;
@@ -3228,12 +3228,12 @@ h2#dont-miss-it-title{
 	background-color: #fff ; /* kakao yellow */
 	color: #2d2926;
 	border: none;
-	border-radius: 12px;
+	border-radius: 40px;
 	text-align: center;
 	display: inline-block;
 	font-size: 15px;
 	width: 180px;
-	padding: 15px 0px 15px 0px;
+	padding: 15px 0px;
 	margin: 0px 10px 10px 0px;
 	
 }
@@ -4566,9 +4566,14 @@ h2#dont-miss-it-title{
 	font-size: 15px;
 }
 
-.btninner button img{
-	width: 120px;
-	height: auto;
+.kakaopaybtn{
+	font-size: 14px;
+	padding: 13px 0px;
+}
+
+.accountbtn{
+	font-size: 14px;
+	padding: 13px 0px;
 }
 
 /* ----------------------------------------------*/
