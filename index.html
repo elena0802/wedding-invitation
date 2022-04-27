@@ -1816,6 +1816,7 @@
                 t.value = val;
                 t.select();
                 document.execCommand('copy');
+                document.body.removeChild(t);
             }
             
             $('#copybtn1').click(function() {
@@ -1824,7 +1825,7 @@
             });
 
             $('#copybtn2').click(function() {
-                copyToClipboard('국민은행 110355642330 천진호');
+                copyToClipboard('농협 3021260604991 한영후');
                 alert('계좌번호가 복사되었습니다');
             });
             
