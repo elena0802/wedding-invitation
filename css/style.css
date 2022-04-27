@@ -1510,6 +1510,7 @@ hr.line-divider{
 	height:8px;
 	display:inline-block;
 	border-top:solid 1px #FFF;
+	opacity: 0.7;
 }
 
 .grey-line{
@@ -2676,7 +2677,7 @@ footer .image-divider.fixed-height{
 	font-size: 23px;
 	color: #fff;
 	letter-spacing: 2px;
-	margin-top: 5px
+	margin-top: 5px;
 }
 
 #footer-couple-name{
@@ -2815,11 +2816,10 @@ footer .image-divider.fixed-height{
 }
 
 .his-her-name .last-name{
-	font-family: 'MaruBuri', serif; 
+	font-family: 'MaruBuriExtraLight', serif;
 	font-size:15px; 
 	display:block; 
 	margin-top:15px;
-	margin-bottom:25px;
 }
 
 .his-her-name .heart-wrapper{
@@ -3987,6 +3987,10 @@ p{
 	margin-bottom:40px;
 }
 
+.his-her-name .last-name{
+	font-size: 14px;
+}
+
 #couple {
 	padding: 80px 30px 60px 30px;
 }
@@ -4312,6 +4316,10 @@ p{
 	font-size:22px; 
 	margin-top:40px; 
 	margin-bottom:30px;
+}
+
+.his-her-name .last-name{
+	font-size: 13px;
 }
 
 .parents-name h4{
@@ -4707,8 +4715,20 @@ h2#dont-miss-it-title{
 }
 
 /* LOGO */
+
+#nav-bar.fluid-width #nav-wrapper,
+#nav-bar.fixed-width #nav-wrapper{
+	padding:15px 15px;
+	bottom: 15px;
+	/* padding: 20px 30px */
+}
+
 .mobile-logo{
-	font-size: 14px;
+	font-size: 13px;
+}
+
+#mobile-nav{
+	font-size: 15px;
 }
 
 /* 06.5.6 Save The Date Title */
@@ -4754,15 +4774,19 @@ h2#dont-miss-it-title{
 	margin-bottom:30px;
 }
 
+.his-her-name .last-name{
+	font-size: 11px;
+}
+
 .parents-name h4{
 	font-size:11px; 
-	margin-top:25px; 
-	margin-bottom:15px;
+	margin-top:20px; 
+	margin-bottom:10px;
 	font-family: 'MaruBuriLight', serif;
 }
 
 .parents-name h3{
-	font-size:14px; 
+	font-size:13px; 
 	margin-top:12px; 
 	margin-bottom:30px;
 	font-family: 'MaruBuriSemiBold', serif;
