@@ -2,120 +2,77 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
-* {
-  box-sizing: border-box;
-}
+  .box01{
+            text-align: center;
+        }
+  .box01 input{
+            border: none;
+            font-size: 15px;
+            outline: none;
+            text-align: center;
+        }
+  .box01 button{
+            border:none;
+            width:100px;
+            height: auto;
+            vertical-align: bottom;
+        }
+  .box01 button img{
+            width: 100%;
+        }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
 </style>
 </head>
+
 <body>
+  <p class="box01">
+    <input value="신한은행 110355642330 천현정" readonly>
+      <button onclick="copy_to_clipboard(event)">
+        <img src="https://blog.kakaocdn.net/dn/N1wUc/btqIl7XZtKM/b44qX9Six1vczz2ISWj4LK/img.png" alt="복사하기">
+      </button>
+    </p>       
+    <p class="box01">
+        <input value="국민은행 1234567890 테스트" readonly>
+        <button onclick="copy_to_clipboard(event)">
+          <img src="/wedding-invitation/images/pattern/payment_icon_yellow_large.png" alt="복사하기">
+        </button>
+    </p>  
 
-<h2>Responsive Form</h2>
-<p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
+  <script>
+    function copy_to_clipboard(event) {    
+    var copyText = event.target.parentNode.previousElementSibling;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    document.execCommand("Copy");
+    alert('계좌번호가 복사되었습니다');
+  }     
 
-<div class="container">
-  <form action="/action_page.php">
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">First Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">Last Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="country">Country</label>
-      </div>
-      <div class="col-75">
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Subject</label>
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      </div>
-    </div>
-    <div class="row">
-      <input type="submit" value="Submit">
-    </div>
-  </form>
-</div>
+  </script>
+
+
+
+
+
+
+
+<button onclick="copyToClipboard()">Copy account</button>
+
+<script>
+function copyToClipboard(text) {
+var inputc = document.body.appendChild(document.createElement("input"));
+inputc.value = ('신한은행 110355642330 천현정');
+inputc.focus();
+inputc.select();
+document.execCommand('copy');
+inputc.parentNode.removeChild(inputc);
+alert("URL Copied.");
+}
+</script>
+
+<br>
+<button onclick="prompt('Press Ctrl',window.location.href)">Copy Link</button>
 
 </body>
 </html>

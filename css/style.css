@@ -3247,11 +3247,30 @@ h2#dont-miss-it-title{
 	display: inline-block;
 }
 
+.btninner button{
+	outline: none;
+	border: none;
+}
+
 .accountinfo {
 	padding: 30px 50px 20px 40px;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-size: 17px;
 	font-weight: 300;
+}
+
+.accountinfo input{
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+
+.accountinfo button{
+	border: none;
+}
+
+.accountinfo button img{
+	width: 100%;
 }
 
 /* ----------------------------------------------*/
