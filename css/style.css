@@ -3243,15 +3243,6 @@ h2#dont-miss-it-title{
 	text-align: center;
 }
 
-.btninner {
-	display: inline-block;
-}
-
-.btninner button{
-	outline: none;
-	border: none;
-}
-
 .accountinfo {
 	padding: 30px 50px 20px 40px;
 	font-family: 'Noto Sans KR', sans-serif;
@@ -3259,19 +3250,21 @@ h2#dont-miss-it-title{
 	font-weight: 300;
 }
 
-.accountinfo input{
+.btninner {
+	display: inline-block;
+}
+
+.btninner button{
 	border: none;
 	outline: none;
-	background-color: transparent;
 }
 
-.accountinfo button{
-	border: none;
+.btninner button img{
+	width: 150px;
+	height: auto;
 }
 
-.accountinfo button img{
-	width: 100%;
-}
+
 
 /* ----------------------------------------------*/
 /* 14.11 RSVP Section							 */
