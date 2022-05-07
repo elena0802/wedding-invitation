@@ -3264,8 +3264,6 @@ h2#dont-miss-it-title{
 	margin: 0px 20px;
 }
 
-
-
 /* ----------------------------------------------*/
 /* 14.11 RSVP Section							 */
 /* ----------------------------------------------*/
@@ -4289,7 +4287,7 @@ p{
 /* ----------------------------------------------*/	
 
 #greeting{
-	padding:60px 0 40px 0;
+	padding:60px 0px 40px 0px;
 }
 
 #couple{
@@ -4350,7 +4348,7 @@ p{
 
 #counting{
 	font-size:55px; 
-	line-height:45px
+	line-height:45px;
 }
 
 #down{
@@ -4445,6 +4443,8 @@ p{
 #where-when .location-info h4{
 	font-size: 13px;
 	margin-left: 5px;
+	margin-bottom: 5px;
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 #where-when .location-info p{
@@ -4542,7 +4542,7 @@ h2#dont-miss-it-title{
 /* 14.11 RSVP Section							 */
 /* ----------------------------------------------*/
 #rsvp-section{
-	padding: 80px 0
+	padding: 80px 0px;
 }
 
 /* ----------------------------------------------*/
